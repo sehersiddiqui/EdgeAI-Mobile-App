@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_heading" />
+
+    <TextView
+        style="@style/TextBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_sm"
+        android:layout_marginBottom="@dimen/spacing_lg"
+        android:text="@string/profile_subheading" />
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/Card.Hero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_lg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="@dimen/spacing_xl">
+
+            <TextView
+                android:id="@+id/avatar_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/text_name"
+                style="@style/TextTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_sm"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text_email"
+                style="@style/TextBody"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_upload_photo"
+        style="@style/Button.Secondary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginBottom="@dimen/spacing_sm"
+        android:text="@string/action_upload_photo" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_edit_details"
+        style="@style/Button.Secondary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginBottom="@dimen/spacing_lg"
+        android:text="@string/action_edit_details" />
+
+    <include
+        android:id="@+id/row_reading_age"
+        layout="@layout/item_profile_detail" />
+
+    <include
+        android:id="@+id/row_gender"
+        layout="@layout/item_profile_detail" />
+
+    <include
+        android:id="@+id/row_mobile"
+        layout="@layout/item_profile_detail" />
+
+    <include
+        android:id="@+id/row_address"
+        layout="@layout/item_profile_detail" />
+
+    <include
+        android:id="@+id/nav_account_prefs"
+        layout="@layout/item_nav_row" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_log_out"
+        style="@style/Button.Destructive"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="@dimen/spacing_lg"
+        android:text="@string/action_log_out" />
+</LinearLayout>

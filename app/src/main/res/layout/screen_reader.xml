@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/book_title"
+        style="@style/TextHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/book_subtitle"
+        style="@style/TextCaption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="@dimen/spacing_lg" />
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/Card.Flat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_lg">
+
+        <TextView
+            android:id="@+id/passage_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/paper_warm"
+            android:lineSpacingExtra="10dp"
+            android:padding="@dimen/spacing_lg"
+            android:textColor="#273047"
+            android:textIsSelectable="true"
+            android:textSize="19sp" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_listen"
+        style="@style/Button.Secondary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginBottom="@dimen/spacing_sm"
+        android:text="@string/action_listen_passage" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_reader_appearance"
+        style="@style/Button.Secondary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginBottom="@dimen/spacing_sm"
+        android:text="@string/action_reading_appearance" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_toggle_focus"
+        style="@style/Button.Secondary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginBottom="@dimen/spacing_sm" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_save_session"
+        style="@style/Button.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginBottom="@dimen/spacing_sm"
+        android:text="@string/action_save_session" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_open_pdf"
+        style="@style/Button.Secondary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginBottom="@dimen/spacing_sm"
+        android:text="@string/action_open_pdf_pages"
+        android:visibility="gone" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_reading_tools"
+        style="@style/Button.Text"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height_small"
+        android:layout_gravity="start"
+        android:text="@string/action_reading_tools" />
+
+    <TextView
+        android:id="@+id/pdf_note"
+        style="@style/TextCaption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_sm"
+        android:text="@string/pdf_note"
+        android:visibility="gone" />
+</LinearLayout>

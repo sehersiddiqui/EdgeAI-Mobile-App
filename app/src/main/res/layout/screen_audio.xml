@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/audio_heading" />
+
+    <TextView
+        style="@style/TextBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_sm"
+        android:layout_marginBottom="@dimen/spacing_lg"
+        android:text="@string/audio_subheading" />
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/Card.Hero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_lg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="@dimen/spacing_xl">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🎧"
+                android:textSize="36sp" />
+
+            <TextView
+                style="@style/TextTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_sm"
+                android:text="@string/audio_card_title" />
+
+            <TextView
+                android:id="@+id/text_current_passage"
+                style="@style/TextBody"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:gravity="center" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_play"
+        style="@style/Button.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginBottom="@dimen/spacing_sm"
+        android:text="@string/action_play_passage" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_pause"
+        style="@style/Button.Secondary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginBottom="@dimen/spacing_sm"
+        android:text="@string/action_pause_stop" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_return_reading"
+        style="@style/Button.Text"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height_small"
+        android:layout_gravity="start"
+        android:layout_marginBottom="@dimen/spacing_md"
+        android:text="@string/action_return_reading" />
+
+    <TextView
+        style="@style/TextCaption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/audio_note" />
+</LinearLayout>

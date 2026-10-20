@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EdgeAI Reader</string>
+    <string name="brand_name">edgeai</string>
+    <string name="brand_tagline">READING, REIMAGINED</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline">A MORE HUMAN WAY TO READ</string>
+    <string name="splash_loading">Your reading companion is waking up…</string>
+    <string name="splash_footer">Personalised • Private • Encouraging</string>
+
+    <!-- Auth -->
+    <string name="auth_heading">A calmer way to read.</string>
+    <string name="auth_subheading">Your space to focus, explore and grow — one page at a time.</string>
+    <string name="auth_tab_login">Log in</string>
+    <string name="auth_tab_signup">Create account</string>
+    <string name="hint_name">Your name</string>
+    <string name="hint_email">Email address</string>
+    <string name="hint_password">Password (6+ characters)</string>
+    <string name="hint_confirm_password">Confirm password</string>
+    <string name="auth_submit_login">Log in securely</string>
+    <string name="auth_submit_signup">Create my account</string>
+    <string name="auth_google">Continue with Google</string>
+    <string name="auth_demo_note">Demo mode: you can explore the app without Firebase. Cloud authentication and sync activate after setup.</string>
+
+    <!-- Home -->
+    <string name="home_eyebrow">✦  YOUR PERSONAL READING SPACE</string>
+    <string name="home_greeting">Good evening, %1$s.</string>
+    <string name="home_subheading">A calmer place to read, focus and build confidence — one page at a time.</string>
+    <string name="home_hero_eyebrow">YOUR NEXT CHAPTER</string>
+    <string name="home_hero_title">Make room for\nfocused reading.</string>
+    <string name="home_hero_subtitle">Personalised tools. Your pace. Your progress.</string>
+    <string name="action_continue_reading">Continue reading</string>
+    <string name="label_your_rhythm">YOUR RHYTHM</string>
+    <string name="stat_min_read">min read</string>
+    <string name="stat_words">words</string>
+    <string name="stat_sessions">sessions</string>
+    <string name="heading_continue_journey">Continue your journey</string>
+    <string name="label_type_duration">%1$s  •  5 min read</string>
+    <string name="heading_made_for_flow">Made for your reading flow</string>
+    <string name="focus_mode_title">◉  Focus mode</string>
+    <string name="focus_mode_body">Reduce visual drift with a gentle line-by-line reading aid.</string>
+    <string name="action_try_focus_mode">Try focus mode</string>
+    <string name="action_explore_insights">Explore my insights</string>
+    <string name="action_live_camera">Live camera signals (experimental)</string>
+
+    <!-- Library -->
+    <string name="library_heading">Your library</string>
+    <string name="library_subheading">A thoughtfully organised shelf for the stories and ideas you want to explore.</string>
+    <string name="action_add_book">Add a TXT or PDF</string>
+    <string name="action_cloud_sync">Sync / cloud setup</string>
+    <string name="cloud_sync_dialog_title">Cloud library</string>
+    <string name="cloud_sync_dialog_body">Firebase Firestore + Storage hooks are active. Add google-services.json, enable Auth/Firestore/Storage, then connect storage uploads as described in SETUP.md.</string>
+    <string name="label_books_count">BOOKS  •  %1$d ITEMS</string>
+    <string name="action_read_now">Read now</string>
+    <string name="action_book_options">Book actions</string>
+    <string name="library_empty_title">Your shelf is waiting</string>
+    <string name="library_empty_body">Add a TXT or PDF to make this space yours.</string>
+    <string name="action_add_first_book">Add your first book</string>
+    <string name="delete_book_title">Delete book?</string>
+    <string name="delete_book_body">Remove %1$s from this library?</string>
+
+    <!-- Reader -->
+    <string name="label_reader_subtitle">A quiet reading room • %1$s • Offline-friendly</string>
+    <string name="action_listen_passage">Listen to this passage</string>
+    <string name="action_reading_appearance">Aa  Reading appearance</string>
+    <string name="action_focus_on">Turn on line focus</string>
+    <string name="action_focus_off">Turn off line focus</string>
+    <string name="action_save_session">Save reading session</string>
+    <string name="action_open_pdf_pages">Open PDF pages</string>
+    <string name="action_reading_tools">Reading tools &amp; evidence</string>
+    <string name="pdf_note">PDF import is recorded in your shelf. Full in-app PDF page rendering can be added using Android PdfRenderer; this starter opens imported PDF metadata, while TXT passages render in the adaptive reader.</string>
+
+    <!-- Reader settings -->
+    <string name="reader_settings_heading">Make text feel right</string>
+    <string name="reader_settings_subheading">Choose a reading setup that feels comfortable. There is no perfect setting — only what works for you.</string>
+    <string name="label_text_size">TEXT SIZE  ·  %1$d%%</string>
+    <string name="label_letter_spacing">LETTER SPACING  ·  %1$.1f×</string>
+    <string name="action_preview_settings">Preview my settings</string>
+    <string name="action_warm_theme">Switch to warm paper theme</string>
+    <string name="action_cool_theme">Switch to cool paper theme</string>
+    <string name="action_contrast_on">Turn on high contrast</string>
+    <string name="action_contrast_off">Turn off high contrast</string>
+    <string name="action_reduce_motion">Reduce motion</string>
+    <string name="action_enable_motion">Enable subtle motion</string>
+    <string name="action_reset_default">Reset to default</string>
+
+    <!-- Progress -->
+    <string name="progress_heading">Your progress</string>
+    <string name="progress_subheading">A private view of your reading rhythm. Progress is personal — these signals are here to encourage, never judge.</string>
+    <string name="label_this_week">THIS WEEK</string>
+    <string name="label_minutes_value">%1$d minutes</string>
+    <string name="progress_encouragement">↑  Keep your own pace — consistency matters more than speed.</string>
+    <string name="metric_sessions">📚  Sessions</string>
+    <string name="metric_words">✍  Words explored</string>
+    <string name="metric_streak">🌿  Reading streak</string>
+    <string name="metric_checkins">💜  Comfort check-ins</string>
+    <string name="value_streak">3 days</string>
+    <string name="value_checkins">6</string>
+    <string name="action_achievements">See achievements</string>
+    <string name="action_set_goal">Set a gentle goal</string>
+    <string name="action_session_history">Session history</string>
+
+    <!-- Insights -->
+    <string name="insights_heading">Your reading insights</string>
+    <string name="insights_subheading">Pip notices patterns to help you choose tools. These are illustrative demo signals unless a real, validated gaze model is connected.</string>
+    <string name="insight_pattern_label">🔎  PATTERN SPOTTED</string>
+    <string name="insight_pattern_title">A pause on a longer word</string>
+    <string name="insight_pattern_body">Example evidence: “disagreeable” in The Secret Garden. The sample passage uses a demo fixation event at 720 ms, above the 600 ms prototype threshold.</string>
+    <string name="insight_backtrack_label">↶  BACKTRACKING SIGNAL</string>
+    <string name="insight_backtrack_title">2 demo regressions in this session</string>
+    <string name="insight_backtrack_body">Prototype rule: a leftward movement on the same line is counted; &gt;3 within two sentences can suggest offering line focus. This is not a diagnosis.</string>
+    <string name="action_try_anchor">Try a visual anchor</string>
+    <string name="action_audio_handoff">Explore audio handoff</string>
+    <string name="action_how_insights">How insights work</string>
+
+    <!-- Focus -->
+    <string name="focus_heading">One line at a time</string>
+    <string name="focus_subheading">A gentle visual anchor can reduce the work of finding your place. Tap a line to bring it into focus.</string>
+    <string name="action_return_reader">Return to reader</string>
+    <string name="action_back_normal">Back to normal</string>
+
+    <!-- Audio -->
+    <string name="audio_heading">Let the words flow</string>
+    <string name="audio_subheading">Listening is a valid way to keep going. Use the built-in Android text-to-speech engine — no API key required.</string>
+    <string name="audio_card_title">A little listening break</string>
+    <string name="audio_card_subtitle">Current passage: %1$s</string>
+    <string name="action_play_passage">Play passage</string>
+    <string name="action_pause_stop">Pause / stop</string>
+    <string name="action_return_reading">Return to reading</string>
+    <string name="audio_note">Automatic audio handoff after sustained difficulty is not enabled in this demo; production use should require consent and a validated signal.</string>
+
+    <!-- Gaze -->
+    <string name="gaze_heading">Live camera signals</string>
+    <string name="gaze_subheading">This opens an on-device CameraX + ML Kit face/eye-landmark demo. It measures face presence, head yaw and eye-open probabilities. These are not point-of-regard estimates and are not a diagnosis.</string>
+    <string name="gaze_card_title">What is measured?</string>
+    <string name="gaze_card_body">• Face detection and tracking ID\n• Head yaw angle\n• Left/right eye-open probability\n• Frames analysed during this session</string>
+    <string name="action_start_camera">Start live camera analysis</string>
+    <string name="action_view_interpretation">View signal interpretation</string>
+    <string name="gaze_note">Privacy: frames are processed locally and not saved by this demo. Camera permission is requested only when you start the analysis.</string>
+
+    <!-- Upload -->
+    <string name="upload_heading">Bring a book along</string>
+    <string name="upload_subheading">Choose a file from your device. EdgeAI supports TXT and PDF in this starter. File contents are read locally where possible.</string>
+    <string name="action_choose_file">Choose TXT or PDF</string>
+    <string name="upload_privacy_title">A small note on privacy</string>
+    <string name="upload_privacy_body">Imported file content is stored securely. In cloud mode, metadata and books are synced to your isolated user profile.</string>
+    <string name="action_back_library">Back to library</string>
+
+    <!-- Profile -->
+    <string name="profile_heading">Your profile</string>
+    <string name="profile_subheading">Make EdgeAI feel like your space.</string>
+    <string name="action_upload_photo">Upload profile picture</string>
+    <string name="action_edit_details">Edit personal details</string>
+    <string name="row_reading_age">Reading age</string>
+    <string name="row_gender">Gender</string>
+    <string name="row_mobile">Mobile number</string>
+    <string name="row_address">Address</string>
+    <string name="action_account_prefs">Account &amp; preferences</string>
+    <string name="action_log_out">Log out</string>
+
+    <!-- Edit profile -->
+    <string name="edit_profile_heading">A few details about you</string>
+    <string name="edit_profile_subheading">Only share what you feel comfortable sharing.</string>
+    <string name="hint_full_name">Full name</string>
+    <string name="hint_mobile">Mobile number</string>
+    <string name="hint_age">Age (optional)</string>
+    <string name="hint_gender">Gender (optional)</string>
+    <string name="hint_address">Address (optional)</string>
+    <string name="action_choose_photo">Choose profile photo</string>
+    <string name="action_save_changes">Save changes</string>
+    <string name="action_pick_map_address">Pick address on interactive map</string>
+
+    <!-- Achievements -->
+    <string name="achievements_heading">Little wins, big meaning</string>
+    <string name="achievements_subheading">Achievements celebrate showing up — never speed or comparison.</string>
+    <string name="action_set_next_goal">Set next goal</string>
+
+    <!-- Goals -->
+    <string name="goals_heading">Your gentle goal</string>
+    <string name="goals_subheading">Pick something that feels achievable. You can change it anytime.</string>
+    <string name="label_minutes_today">%1$d minutes today</string>
+    <string name="action_save_goal">Save my goal</string>
+
+    <!-- History -->
+    <string name="history_heading">Your reading timeline</string>
+    <string name="history_subheading">A private, simple record of the sessions you choose to save.</string>
+    <string name="action_back_progress">Back to progress</string>
+    <string name="action_clear_history">Clear local history</string>
+    <string name="clear_history_title">Clear history?</string>
+    <string name="clear_history_body">This removes the timeline from this session and cloud storage.</string>
+    <string name="history_item_subtitle">Session saved on this device</string>
+
+    <!-- Help -->
+    <string name="help_heading">We\'re here to help</string>
+    <string name="help_subheading">EdgeAI is designed to make reading feel more manageable, not to judge your ability.</string>
+    <string name="action_privacy_data">Privacy &amp; data</string>
+    <string name="action_about_edgeai">About EdgeAI</string>
+
+    <!-- About -->
+    <string name="about_heading">Reading, reimagined.</string>
+    <string name="about_subheading">EdgeAI is an accessibility-first reading companion that adapts presentation, supports listening, and celebrates steady progress.</string>
+    <string name="chip_comfort">DESIGNED FOR COMFORT</string>
+    <string name="chip_local_first">LOCAL-FIRST DEMO</string>
+    <string name="chip_java_android">JAVA • ANDROID</string>
+    <string name="about_card_title">Pip, your reading buddy 🐣</string>
+    <string name="about_card_quote">“You don\'t have to finish the whole book today. One paragraph is a lovely start.”</string>
+    <string name="action_explore_reader">Explore the reader</string>
+    <string name="action_help_faq">Help &amp; FAQ</string>
+
+    <!-- Privacy -->
+    <string name="privacy_heading">Your data, your choice</string>
+    <string name="privacy_subheading">EdgeAI should support the reader, not monitor them.</string>
+    <string name="action_back_settings">Back to settings</string>
+
+    <!-- Web -->
+    <string name="web_heading">EdgeAI resources</string>
+    <string name="web_subheading">Trusted resource page. Use Back to return to your reading space.</string>
+    <string name="web_note">External websites have their own privacy policies. This screen does not send reading telemetry.</string>
+
+    <!-- Settings -->
+    <string name="settings_heading">Your preferences</string>
+    <string name="settings_subheading">Tune the app to your needs.</string>
+    <string name="nav_reading_appearance">Reading appearance</string>
+    <string name="nav_reading_insights">Reading insights</string>
+    <string name="nav_privacy_data">Privacy &amp; data</string>
+    <string name="nav_help_faq">Help &amp; FAQ</string>
+    <string name="nav_about">About EdgeAI</string>
+    <string name="nav_web_resources">Web resources</string>
+
+    <!-- Logout -->
+    <string name="logout_heading">Taking a little break?</string>
+    <string name="logout_subheading">Your progress matters, and you can come back whenever you\'re ready.</string>
+    <string name="logout_card_title">Thanks for reading with us.</string>
+    <string name="logout_card_subtitle">Pip will be right here when you return.</string>
+    <string name="action_stay_longer">Stay a little longer</string>
+
+    <!-- Bottom nav -->
+    <string name="nav_home">Home</string>
+    <string name="nav_library">Library</string>
+    <string name="nav_progress">Progress</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Misc -->
+    <string name="cd_more_options">More navigation options</string>
+    <string name="cd_screen_suffix"> screen</string>
+    <string name="cd_content_card">Content card</string>
+    <string name="demo_account_title">Demo account</string>
+    <string name="demo_account_body">Use reader@example.com and any password of at least 6 characters. This is local demo access only when Firebase is not configured.</string>
+    <string name="google_signin_title">Google sign-in</string>
+    <string name="google_signin_body">To enable Google sign-in, configure Firebase Authentication and add the Google Sign-In / Credential Manager flow described in SETUP.md. Email/password is available when Firebase is configured; demo mode lets you explore locally.</string>
+    <string name="leave_app_title">Leave EdgeAI?</string>
+    <string name="leave_app_body">Your reading space will be here when you return.</string>
+    <string name="action_stay">Stay</string>
+    <string name="action_leave">Leave</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_ok">OK</string>
+    <string name="got_it">Got it</string>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/progress_heading" />
+
+    <TextView
+        style="@style/TextBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_sm"
+        android:layout_marginBottom="@dimen/spacing_lg"
+        android:text="@string/progress_subheading" />
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/Card.Hero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/spacing_lg">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/spacing_lg">
+
+            <TextView
+                style="@style/TextLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_this_week"
+                android:textColor="@color/on_primary_container" />
+
+            <TextView
+                android:id="@+id/text_minutes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/ink"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                style="@style/TextBody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/progress_encouragement" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <include
+        android:id="@+id/metric_sessions"
+        layout="@layout/item_metric" />
+
+    <include
+        android:id="@+id/metric_words"
+        layout="@layout/item_metric" />
+
+    <include
+        android:id="@+id/metric_streak"
+        layout="@layout/item_metric" />
+
+    <include
+        android:id="@+id/metric_checkins"
+        layout="@layout/item_metric" />
+
+    <include
+        android:id="@+id/nav_achievements"
+        layout="@layout/item_nav_row" />
+
+    <include
+        android:id="@+id/nav_goals"
+        layout="@layout/item_nav_row" />
+
+    <include
+        android:id="@+id/nav_history"
+        layout="@layout/item_nav_row" />
+</LinearLayout>

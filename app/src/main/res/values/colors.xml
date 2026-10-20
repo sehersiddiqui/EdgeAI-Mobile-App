@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Surfaces -->
+    <color name="background">#FBF8F3</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_alt">#F2EEFB</color>
+    <color name="surface_sunken">#F5F2EC</color>
+
+    <!-- Borders / dividers -->
+    <color name="border">#E7E1EC</color>
+    <color name="border_strong">#D8D1E2</color>
+    <color name="divider">#EDE9F2</color>
+
+    <!-- Text -->
+    <color name="ink">#211D2E</color>
+    <color name="ink_muted">#696278</color>
+    <color name="ink_faint">#9890A3</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_dark">#F4F1FA</color>
+
+    <!-- Brand / accent (restrained purple) -->
+    <color name="primary">#6C4FD6</color>
+    <color name="primary_dark">#5739B8</color>
+    <color name="primary_container">#EFE8FD</color>
+    <color name="on_primary_container">#45309E</color>
+
+    <!-- Secondary accent (mint) -->
+    <color name="secondary">#16966E</color>
+    <color name="secondary_container">#E1F5EC</color>
+
+    <!-- Destructive -->
+    <color name="destructive">#C23B3B</color>
+    <color name="destructive_container">#FBEAEA</color>
+    <color name="on_destructive_container">#8E2A2A</color>
+
+    <!-- Reader paper tones -->
+    <color name="paper_warm">#FBF0D8</color>
+    <color name="paper_warm_focus">#FCE3A8</color>
+    <color name="paper_cool">#EAF0FA</color>
+    <color name="paper_cool_focus">#D9E6FA</color>
+    <color name="paper_high_contrast_bg">#13121A</color>
+    <color name="paper_high_contrast_text">#FFFFFF</color>
+
+    <!-- Status / nav bars -->
+    <color name="status_bar">#FBF8F3</color>
+    <color name="nav_bar">#FFFFFF</color>
+
+    <!-- Misc chips -->
+    <color name="chip_bg">#F2EEFB</color>
+    <color name="transparent">#00000000</color>
+</resources>

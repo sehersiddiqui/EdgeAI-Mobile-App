@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing scale -->
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="spacing_md">12dp</dimen>
+    <dimen name="spacing_lg">20dp</dimen>
+    <dimen name="spacing_xl">28dp</dimen>
+    <dimen name="spacing_xxl">40dp</dimen>
+
+    <!-- Corner radii -->
+    <dimen name="radius_sm">8dp</dimen>
+    <dimen name="radius_md">12dp</dimen>
+    <dimen name="radius_lg">16dp</dimen>
+
+    <!-- Component sizes -->
+    <dimen name="button_height">52dp</dimen>
+    <dimen name="button_height_small">40dp</dimen>
+    <dimen name="touch_target">48dp</dimen>
+    <dimen name="icon_button_size">40dp</dimen>
+    <dimen name="stroke_width">1dp</dimen>
+    <dimen name="stroke_width_thick">1.5dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="text_display">26sp</dimen>
+    <dimen name="text_title">19sp</dimen>
+    <dimen name="text_body">15sp</dimen>
+    <dimen name="text_label">12sp</dimen>
+    <dimen name="text_caption">11sp</dimen>
+</resources>
